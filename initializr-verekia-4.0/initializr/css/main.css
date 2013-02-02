@@ -74,18 +74,18 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #00ff00;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #00ff00;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: #000000;
 }
 
 .title {
@@ -110,15 +110,26 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 
-    color: white;
-    background: #e44d26;
+    color: black;
+    background: #00ff00;
 }
 
 nav a:hover,
 nav a:visited {
     color: white;
 }
-
+aside a{
+	color: white
+}
+aside a:visited{
+	color: #009000;
+}
+aside a:hover{
+	color: #00ff00;
+}
+.Current{
+	background: #009000;
+}
 nav a:hover {
     text-decoration: underline;
 }
@@ -183,7 +194,7 @@ nav a:hover {
 
     nav a {
         float: left;
-        width: 13%;
+        width: 9%;
         margin: 0 1.7%;
         padding: 25px 2%;
         margin-bottom: 0;
